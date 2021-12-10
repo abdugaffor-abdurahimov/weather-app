@@ -10,7 +10,8 @@
     "scripts": {
         "dev": "webpack serve --config ./webpack/webpack.dev.js",
         "build": "NODE_ENV=production webpack --config ./webpack/webpack.prod.js",
-        "test": "jest"
+        "test": "jest",
+        "cy:open": "cypress open"
     },
     "keywords": [],
     "author": "",
@@ -29,6 +30,7 @@
         "clean-webpack-plugin": "^4.0.0-alpha.0",
         "copy-webpack-plugin": "^9.0.0",
         "css-loader": "^5.2.5",
+        "cypress": "^9.1.1",
         "eslint": "^7.27.0",
         "eslint-plugin-react": "^7.24.0",
         "eslint-webpack-plugin": "^2.5.4",
